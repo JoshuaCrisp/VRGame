@@ -5,10 +5,11 @@ using UnityEngine;
 using System.Threading;
 
 
-public class arduinoToUnity : MonoBehaviour {
+public class arduinoToUnity_01
+	: MonoBehaviour {
 
 	public string potVal;
-	//public string buttonVal;
+	public string buttonVal;
 	 
 
 	SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
@@ -20,7 +21,6 @@ public class arduinoToUnity : MonoBehaviour {
 		
 		OpenConnection ();
 	
-	
 	}
 
 
@@ -28,6 +28,8 @@ public class arduinoToUnity : MonoBehaviour {
 	void Update () {
 
 		float n = 0;
+		float r = 0;
+		float back = 1;//This is for collision with clouds (test inside collider), when hit change value to - or physics
 		float heightHAB = transform.position.y;
 
 		try{
@@ -38,12 +40,15 @@ public class arduinoToUnity : MonoBehaviour {
 
 
 		potVal = sp.ReadLine ();
+		//buttonVal = sp.ReadLine ();
 
 		float z = float.Parse (potVal);
-		print (potVal);
+		//float buttonVal_r = float.Parse(buttonVal);
+		//print (potVal);
 		//print (heightHAB);
 
 
+		//PumpAction
 		if (z > 2700f && z < 2900f) {
 			n = 10f;
 		} else if (z > 2900f) {
@@ -62,16 +67,16 @@ public class arduinoToUnity : MonoBehaviour {
 
 		//Move forward if reaches certain height 
 
-
 		if (heightHAB < 30f) {
 			transform.Translate (0, n * Time.deltaTime, 0, Space.World);
 		}
 
-			 else  {
+		else {
 
-				transform.Translate (60 * Time.deltaTime, n * 5 * Time.deltaTime, 60* Time.deltaTime, Space.World);
+			transform.Translate (60 *back * Time.deltaTime, n * 5 * Time.deltaTime, r* 10 * Time.deltaTime, Space.World);
 
-			}
+
+		}
 		
 
 
