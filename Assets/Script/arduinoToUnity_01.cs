@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO.Ports;
 using UnityEngine;
 using System.Threading;
+using System.Linq;
 
 
 public class arduinoToUnity_01
@@ -20,48 +21,56 @@ public class arduinoToUnity_01
 	void Start () {
 		
 		OpenConnection ();
+
 	
 	}
+
+	float n = 0;
+	float lr = 0;
+	float forward = 60f;
+
 
 
 	// Update is called once per frame
 	void Update () {
-
-		float n = 0;
-		float r = 0;
-		float back = 1;//This is for collision with clouds (test inside collider), when hit change value to - or physics
-		float heightHAB = transform.position.y;
-
+		
 		try{
 			print (sp.ReadLine());
+//			pumpAction();
 		}
 		catch(System.Exception){
 		}
 
+//		float n = 0;
+		float heightHAB = transform.position.y;
 
-		potVal = sp.ReadLine ();
+		float back = 1;//This is for collision with clouds (test inside collider), when hit change value to - or physics
+
+	
 		//buttonVal = sp.ReadLine ();
-
+		potVal = sp.ReadLine ();
 		float z = float.Parse (potVal);
-		//float buttonVal_r = float.Parse(buttonVal);
-		//print (potVal);
-		//print (heightHAB);
+		sp.BaseStream.Flush();
+		print (z);
 
 
-		//PumpAction
+		float val_Button = float.Parse (potVal.Substring (3));
+		print (val_Button);
+
+
+
 		if (z > 2700f && z < 2900f) {
-			n = 10f;
-		} else if (z > 2900f) {
 			n = 30f;
-		} else if (heightHAB <= 5f) {
+
+		} else if (z > 2900f) {
+			n = 60f;
+		} else if (heightHAB < 5f) {
 			n = 0f;
 		}
-		else if (heightHAB <= 5f){
-			n = 0f;
-		}
+
 
 		else {
-			n = - 100.81f;
+			n = - 50.81f;
 		}
 
 
@@ -73,18 +82,66 @@ public class arduinoToUnity_01
 
 		else {
 
-			transform.Translate (60 *back * Time.deltaTime, n * 5 * Time.deltaTime, r* 10 * Time.deltaTime, Space.World);
+			transform.Translate (forward  * Time.deltaTime, n * Time.deltaTime, lr * Time.deltaTime, Space.World);
 
 
 		}
+
+		if (val_Button == 0) {
+			lr = -30f;
+
+		} else {
 		
-
-
+			lr = 0;
+		}
 
 
 
 
 	}
+
+
+//	void pumpAction(){
+//
+//		float heightHAB = transform.position.y;
+//
+//		if (z > 2700f && z < 2900f) {
+//			n = 30f;
+//
+//		} else if (z > 2900f) {
+//			n = 60f;
+//		} else if (heightHAB < 5f) {
+//			n = 0f;
+//		}
+//
+//
+//		else {
+//			n = - 10.81f;
+//		}
+//
+//
+//		//Move forward if reaches certain height 
+//
+//		if (heightHAB < 30f) {
+//			transform.Translate (0, n * Time.deltaTime, 0, Space.World);
+//		}
+//
+//		else {
+//
+//			transform.Translate (forward  * Time.deltaTime, n * Time.deltaTime, lr * Time.deltaTime, Space.World);
+//
+//
+//		}
+//
+//	}
+
+
+
+
+
+
+
+
 
 	//Checks for connection
 	public void OpenConnection()
@@ -93,12 +150,13 @@ public class arduinoToUnity_01
 		{
 			if (sp.IsOpen)
 			{
+
 				sp.Close ();
-				print ("Closin Port");
+				print ("Closing Port");
 			}
 			else{
 				sp.Open ();
-				//sp.ReadTimeout = 1;
+				sp.ReadTimeout = 10;
 				print ("port opened");
 			}
 		}
