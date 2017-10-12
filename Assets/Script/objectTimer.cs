@@ -5,7 +5,7 @@ using UnityEngine;
 public class objectTimer : MonoBehaviour {
 
 	public float n = 1;
-	public float countdown = 120;
+	public float countdown = 180;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +17,20 @@ public class objectTimer : MonoBehaviour {
 
 		countdown -= Time.deltaTime;
 
-		transform.Rotate (0, 0, Time.deltaTime * (-n));
+		if(countdown <= 0){
+
+			GameOver ();
+		}
+
+		transform.Rotate (0, 0, Time.deltaTime * 2*(-n));
 		
 	}
+	void GameOver(){
+
+		Time.timeScale = 0;
+
+	}
+
+
+
 }

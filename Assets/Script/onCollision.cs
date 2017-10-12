@@ -10,7 +10,7 @@ public class onCollision : MonoBehaviour {
 		if (other.gameObject.tag == "Peak") {
 			Debug.Log ("it's colliding");
 		
-			Time.timeScale = 0;
+			//Time.timeScale = 0;
 
 
 		} 

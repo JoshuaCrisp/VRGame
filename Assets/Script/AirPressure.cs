@@ -7,6 +7,8 @@ public class AirPressure : MonoBehaviour {
 
 	public GameObject ap_Handle;
 	public float pressure;
+	float _scale;
+
 
 	// Use this for initialization
 	void Start () {
@@ -16,16 +18,17 @@ public class AirPressure : MonoBehaviour {
 		ArduinoToUnity_02 pressureValue = pump.GetComponent<ArduinoToUnity_02> ();
 		pressureValue.z = pressure;
 		print (pressure);
-
+	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
 		//if statment goes here
+	
 
 
-		transform.Rotate (0, 0, Time.deltaTime * pressure);
+		transform.Rotate (0, 0, Time.deltaTime * 20);
 	}
 
 }

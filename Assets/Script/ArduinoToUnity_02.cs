@@ -15,12 +15,13 @@ public class ArduinoToUnity_02 : MonoBehaviour {
 	public float higher;
 	public float z;
 
-	SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
+	//SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
+	SerialPort sp = new SerialPort("COM3", 9600);
 
 	// Use this for initialization
 	void Start () {
 		sp.Open ();
-		sp.ReadTimeout = 20;
+		sp.ReadTimeout = 10;
 
 
 		//print ("port opened");
