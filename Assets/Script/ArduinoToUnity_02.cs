@@ -13,6 +13,7 @@ public class ArduinoToUnity_02 : MonoBehaviour {
 	public float speedUp = 0f;
 	public float lower;
 	public float higher;
+	public float z;
 
 	SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
 
@@ -20,6 +21,7 @@ public class ArduinoToUnity_02 : MonoBehaviour {
 	void Start () {
 		sp.Open ();
 		sp.ReadTimeout = 20;
+
 
 		//print ("port opened");
 		
@@ -50,22 +52,30 @@ public class ArduinoToUnity_02 : MonoBehaviour {
 
 		} else {
 			forward = 60f;
-		}
 
+		}
 
 		if (z > lower && z < higher) {
 			speedUp = 80f;
 
+
 		} else if (z > higher) {
 			speedUp = 130f;
+
+
 		} else if (z < lower && heightHAB > 20) {
 			speedUp = -250.81f;
+
+
 		} else {
 			speedUp = 0f;
+
 		}
 
 
 
-		transform.Translate (forward * Time.deltaTime, speedUp * Time.deltaTime, 0 , Space.Self);
+
+
+		transform.Translate (0, speedUp * Time.deltaTime, forward * Time.deltaTime , Space.Self);
 	}
 }

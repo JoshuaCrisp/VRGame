@@ -1,0 +1,3279 @@
+fileFormatVersion: 2
+guid: 8f1428f10fbe44bfcab2a075dc2d66e4
+timeCreated: 1507733643
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cheekbones
+    100002: ears
+    100004: glasses
+    100006: hair
+    100008: head
+    100010: left-elbow
+    100012: left_eyebrow
+    100014: left_foot
+    100016: left_forearm
+    100018: left_hand
+    100020: left_hip
+    100022: left_knee
+    100024: left_kneecap
+    100026: left_shoulder
+    100028: left_thigh
+    100030: left_upper_arm
+    100032: right shoulder
+    100034: right_elbow
+    100036: right_eyebrow
+    100038: right_foot
+    100040: right_forearm
+    100042: right_hand
+    100044: right_hip
+    100046: right_knee
+    100048: right_kneecap
+    100050: right_thigh
+    100052: right_upper_arm
+    100054: //RootNode
+    400000: cheekbones
+    400002: ears
+    400004: glasses
+    400006: hair
+    400008: head
+    400010: left-elbow
+    400012: left_eyebrow
+    400014: left_foot
+    400016: left_forearm
+    400018: left_hand
+    400020: left_hip
+    400022: left_knee
+    400024: left_kneecap
+    400026: left_shoulder
+    400028: left_thigh
+    400030: left_upper_arm
+    400032: right shoulder
+    400034: right_elbow
+    400036: right_eyebrow
+    400038: right_foot
+    400040: right_forearm
+    400042: right_hand
+    400044: right_hip
+    400046: right_knee
+    400048: right_kneecap
+    400050: right_thigh
+    400052: right_upper_arm
+    400054: //RootNode
+    2300000: cheekbones
+    2300002: ears
+    2300004: glasses
+    2300006: hair
+    2300008: head
+    2300010: left-elbow
+    2300012: left_eyebrow
+    2300014: left_foot
+    2300016: left_forearm
+    2300018: left_hand
+    2300020: left_hip
+    2300022: left_knee
+    2300024: left_kneecap
+    2300026: left_shoulder
+    2300028: left_thigh
+    2300030: left_upper_arm
+    2300032: right shoulder
+    2300034: right_elbow
+    2300036: right_eyebrow
+    2300038: right_foot
+    2300040: right_forearm
+    2300042: right_hand
+    2300044: right_hip
+    2300046: right_knee
+    2300048: right_kneecap
+    2300050: right_thigh
+    2300052: right_upper_arm
+    2300054: //RootNode
+    3300000: cheekbones
+    3300002: ears
+    3300004: glasses
+    3300006: hair
+    3300008: head
+    3300010: left-elbow
+    3300012: left_eyebrow
+    3300014: left_foot
+    3300016: left_forearm
+    3300018: left_hand
+    3300020: left_hip
+    3300022: left_knee
+    3300024: left_kneecap
+    3300026: left_shoulder
+    3300028: left_thigh
+    3300030: left_upper_arm
+    3300032: right shoulder
+    3300034: right_elbow
+    3300036: right_eyebrow
+    3300038: right_foot
+    3300040: right_forearm
+    3300042: right_hand
+    3300044: right_hip
+    3300046: right_knee
+    3300048: right_kneecap
+    3300050: right_thigh
+    3300052: right_upper_arm
+    3300054: //RootNode
+    4300000: Chest
+    4300002: head
+    4300004: cheekbones
+    4300006: right_eyebrow
+    4300008: left_eyebrow
+    4300010: hair
+    4300012: glasses
+    4300014: ears
+    4300016: right shoulder
+    4300018: right_upper_arm
+    4300020: right_elbow
+    4300022: right_forearm
+    4300024: right_hand
+    4300026: left_shoulder
+    4300028: left_upper_arm
+    4300030: left-elbow
+    4300032: left_forearm
+    4300034: left_hand
+    4300036: right_hip
+    4300038: right_thigh
+    4300040: right_kneecap
+    4300042: right_knee
+    4300044: right_foot
+    4300046: left_hip
+    4300048: left_thigh
+    4300050: left_kneecap
+    4300052: left_knee
+    4300054: left_foot
+    7400000: head|headAction
+    7400002: head|left_eyebrowAction
+    7400004: head|right shoulderAction
+    7400006: head|right_elbowAction
+    7400008: head|right_eyebrowAction
+    7400010: head|right_handAction
+    7400012: right_eyebrow|headAction
+    7400014: right_eyebrow|left_eyebrowAction
+    7400016: right_eyebrow|right shoulderAction
+    7400018: right_eyebrow|right_elbowAction
+    7400020: right_eyebrow|right_eyebrowAction
+    7400022: right_eyebrow|right_handAction
+    7400024: left_eyebrow|headAction
+    7400026: left_eyebrow|left_eyebrowAction
+    7400028: left_eyebrow|right shoulderAction
+    7400030: left_eyebrow|right_elbowAction
+    7400032: left_eyebrow|right_eyebrowAction
+    7400034: left_eyebrow|right_handAction
+    7400036: right shoulder|headAction
+    7400038: right shoulder|left_eyebrowAction
+    7400040: right shoulder|right shoulderAction
+    7400042: right shoulder|right_elbowAction
+    7400044: right shoulder|right_eyebrowAction
+    7400046: right shoulder|right_handAction
+    7400048: right_elbow|headAction
+    7400050: right_elbow|left_eyebrowAction
+    7400052: right_elbow|right shoulderAction
+    7400054: right_elbow|right_elbowAction
+    7400056: right_elbow|right_eyebrowAction
+    7400058: right_elbow|right_handAction
+    7400060: right_hand|headAction
+    7400062: right_hand|left_eyebrowAction
+    7400064: right_hand|right shoulderAction
+    7400066: right_hand|right_elbowAction
+    7400068: right_hand|right_eyebrowAction
+    7400070: right_hand|right_handAction
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: head|headAction
+      takeName: head|headAction
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: head|left_eyebrowAction
+      takeName: head|left_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: head|right shoulderAction
+      takeName: head|right shoulderAction
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: head|right_elbowAction
+      takeName: head|right_elbowAction
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: head|right_eyebrowAction
+      takeName: head|right_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: head|right_handAction
+      takeName: head|right_handAction
+      firstFrame: 0
+      lastFrame: 198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_eyebrow|headAction
+      takeName: right_eyebrow|headAction
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_eyebrow|left_eyebrowAction
+      takeName: right_eyebrow|left_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_eyebrow|right shoulderAction
+      takeName: right_eyebrow|right shoulderAction
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_eyebrow|right_elbowAction
+      takeName: right_eyebrow|right_elbowAction
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_eyebrow|right_eyebrowAction
+      takeName: right_eyebrow|right_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_eyebrow|right_handAction
+      takeName: right_eyebrow|right_handAction
+      firstFrame: 0
+      lastFrame: 198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: left_eyebrow|headAction
+      takeName: left_eyebrow|headAction
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: left_eyebrow|left_eyebrowAction
+      takeName: left_eyebrow|left_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: left_eyebrow|right shoulderAction
+      takeName: left_eyebrow|right shoulderAction
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: left_eyebrow|right_elbowAction
+      takeName: left_eyebrow|right_elbowAction
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: left_eyebrow|right_eyebrowAction
+      takeName: left_eyebrow|right_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: left_eyebrow|right_handAction
+      takeName: left_eyebrow|right_handAction
+      firstFrame: 0
+      lastFrame: 198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right shoulder|headAction
+      takeName: right shoulder|headAction
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right shoulder|left_eyebrowAction
+      takeName: right shoulder|left_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right shoulder|right shoulderAction
+      takeName: right shoulder|right shoulderAction
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right shoulder|right_elbowAction
+      takeName: right shoulder|right_elbowAction
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right shoulder|right_eyebrowAction
+      takeName: right shoulder|right_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right shoulder|right_handAction
+      takeName: right shoulder|right_handAction
+      firstFrame: 0
+      lastFrame: 198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_elbow|headAction
+      takeName: right_elbow|headAction
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_elbow|left_eyebrowAction
+      takeName: right_elbow|left_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_elbow|right shoulderAction
+      takeName: right_elbow|right shoulderAction
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_elbow|right_elbowAction
+      takeName: right_elbow|right_elbowAction
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_elbow|right_eyebrowAction
+      takeName: right_elbow|right_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_elbow|right_handAction
+      takeName: right_elbow|right_handAction
+      firstFrame: 0
+      lastFrame: 198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_hand|headAction
+      takeName: right_hand|headAction
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_hand|left_eyebrowAction
+      takeName: right_hand|left_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_hand|right shoulderAction
+      takeName: right_hand|right shoulderAction
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_hand|right_elbowAction
+      takeName: right_hand|right_elbowAction
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_hand|right_eyebrowAction
+      takeName: right_hand|right_eyebrowAction
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right_hand|right_handAction
+      takeName: right_hand|right_handAction
+      firstFrame: 0
+      lastFrame: 198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/cheekbones
+        weight: 1
+      - path: head/ears
+        weight: 1
+      - path: head/glasses
+        weight: 1
+      - path: head/hair
+        weight: 1
+      - path: head/left_eyebrow
+        weight: 1
+      - path: head/right_eyebrow
+        weight: 1
+      - path: left_hip
+        weight: 1
+      - path: left_hip/left_thigh
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee
+        weight: 1
+      - path: left_hip/left_thigh/left_kneecap/left_knee/left_foot
+        weight: 1
+      - path: left_shoulder
+        weight: 1
+      - path: left_shoulder/left_upper_arm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm
+        weight: 1
+      - path: left_shoulder/left_upper_arm/left-elbow/left_forearm/left_hand
+        weight: 1
+      - path: right shoulder
+        weight: 1
+      - path: right shoulder/right_upper_arm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm
+        weight: 1
+      - path: right shoulder/right_upper_arm/right_elbow/right_forearm/right_hand
+        weight: 1
+      - path: right_hip
+        weight: 1
+      - path: right_hip/right_thigh
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee
+        weight: 1
+      - path: right_hip/right_thigh/right_kneecap/right_knee/right_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
