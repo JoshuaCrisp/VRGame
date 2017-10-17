@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: ac6e9e4a7a06e4cb28387577482a85a8
+timeCreated: 1508188206
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cheekbones
+    100002: Chest
+    100004: ears
+    100006: glasses
+    100008: hair
+    100010: head
+    100012: left-elbow
+    100014: left_eyebrow
+    100016: left_forearm
+    100018: left_hand
+    100020: left_hip
+    100022: left_knee
+    100024: left_kneecap
+    100026: left_shoulder
+    100028: left_thigh
+    100030: left_upper_arm
+    100032: neck
+    100034: right shoulder
+    100036: right_elbow
+    100038: right_eyebrow
+    100040: right_foot
+    100042: right_foot.001
+    100044: right_forearm
+    100046: right_hand
+    100048: right_hip
+    100050: right_knee
+    100052: right_kneecap
+    100054: right_thigh
+    100056: right_upper_arm
+    100058: //RootNode
+    400000: cheekbones
+    400002: Chest
+    400004: ears
+    400006: glasses
+    400008: hair
+    400010: head
+    400012: left-elbow
+    400014: left_eyebrow
+    400016: left_forearm
+    400018: left_hand
+    400020: left_hip
+    400022: left_knee
+    400024: left_kneecap
+    400026: left_shoulder
+    400028: left_thigh
+    400030: left_upper_arm
+    400032: neck
+    400034: right shoulder
+    400036: right_elbow
+    400038: right_eyebrow
+    400040: right_foot
+    400042: right_foot.001
+    400044: right_forearm
+    400046: right_hand
+    400048: right_hip
+    400050: right_knee
+    400052: right_kneecap
+    400054: right_thigh
+    400056: right_upper_arm
+    400058: //RootNode
+    2300000: cheekbones
+    2300002: Chest
+    2300004: ears
+    2300006: glasses
+    2300008: hair
+    2300010: head
+    2300012: left-elbow
+    2300014: left_eyebrow
+    2300016: left_forearm
+    2300018: left_hand
+    2300020: left_hip
+    2300022: left_knee
+    2300024: left_kneecap
+    2300026: left_shoulder
+    2300028: left_thigh
+    2300030: left_upper_arm
+    2300032: neck
+    2300034: right shoulder
+    2300036: right_elbow
+    2300038: right_eyebrow
+    2300040: right_foot
+    2300042: right_foot.001
+    2300044: right_forearm
+    2300046: right_hand
+    2300048: right_hip
+    2300050: right_knee
+    2300052: right_kneecap
+    2300054: right_thigh
+    2300056: right_upper_arm
+    3300000: cheekbones
+    3300002: Chest
+    3300004: ears
+    3300006: glasses
+    3300008: hair
+    3300010: head
+    3300012: left-elbow
+    3300014: left_eyebrow
+    3300016: left_forearm
+    3300018: left_hand
+    3300020: left_hip
+    3300022: left_knee
+    3300024: left_kneecap
+    3300026: left_shoulder
+    3300028: left_thigh
+    3300030: left_upper_arm
+    3300032: neck
+    3300034: right shoulder
+    3300036: right_elbow
+    3300038: right_eyebrow
+    3300040: right_foot
+    3300042: right_foot.001
+    3300044: right_forearm
+    3300046: right_hand
+    3300048: right_hip
+    3300050: right_knee
+    3300052: right_kneecap
+    3300054: right_thigh
+    3300056: right_upper_arm
+    4300000: right_hip
+    4300002: right_thigh
+    4300004: right_kneecap
+    4300006: right_knee
+    4300008: right_foot
+    4300010: left_hip
+    4300012: left_thigh
+    4300014: left_kneecap
+    4300016: left_knee
+    4300018: right_foot.001
+    4300020: Chest
+    4300022: head
+    4300024: cheekbones
+    4300026: right_eyebrow
+    4300028: left_eyebrow
+    4300030: hair
+    4300032: glasses
+    4300034: ears
+    4300036: right shoulder
+    4300038: right_upper_arm
+    4300040: right_elbow
+    4300042: right_forearm
+    4300044: right_hand
+    4300046: left_shoulder
+    4300048: left_upper_arm
+    4300050: left-elbow
+    4300052: left_forearm
+    4300054: left_hand
+    4300056: neck
+    7400000: Scene
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

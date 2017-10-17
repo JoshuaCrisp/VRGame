@@ -16,9 +16,9 @@ public class objectTimer : MonoBehaviour {
 	void Update () {
 
 		countdown -= Time.deltaTime;
-
+		//print (countdown);
 		if(countdown <= 0){
-
+			
 			GameOver ();
 		}
 
