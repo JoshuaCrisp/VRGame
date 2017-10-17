@@ -5,7 +5,8 @@ using UnityEngine;
 public class objectTimer : MonoBehaviour {
 
 	public float n = 1;
-	public float countdown = 180;
+	public float countdown;
+
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +23,7 @@ public class objectTimer : MonoBehaviour {
 			GameOver ();
 		}
 
-		transform.Rotate (0, 0, Time.deltaTime * 2*(-n));
+		transform.Rotate (0, 0, Time.deltaTime * (-n));
 		
 	}
 	void GameOver(){

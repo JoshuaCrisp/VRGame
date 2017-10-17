@@ -20,8 +20,8 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 	public float z;
 	float heightHAB; 
 
-	SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
-	//SerialPort sp = new SerialPort("COM3", 9600);
+	//SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
+	SerialPort sp = new SerialPort("COM3", 9600);
 
 	// Use this for initialization
 	void Start () {
@@ -54,11 +54,11 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 		sp.BaseStream.Flush();
 		print (pumpValue);
 
-		if (heightHAB <= 20) {
+		if (heightHAB <= 80) {
 			forward = 0;
 
 		} else {
-			forward = 60f;
+			forward = 80f;
 
 		}
 
@@ -67,11 +67,11 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 			//forward = 80f;
 
 		} else if (pumpValue > higher) {
-			speedUp = 130f;
+			speedUp = 100f;
 			//forward = 120;
 
 		} else if (pumpValue < lower && heightHAB > 20) {
-			speedUp = -150.81f;
+			speedUp = -90.81f;
 
 		} else {
 			speedUp = 0f;
@@ -80,10 +80,11 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 
 
 
-		Vector3 movement = new Vector3 (0, speedUp* Time.deltaTime, forward*Time.deltaTime);
+		//Vector3 movement = new Vector3 (0, speedUp* Time.deltaTime, forward*Time.deltaTime);
 
-		rb.AddForce (movement, ForceMode.Acceleration);
+		//rb.AddForce (movement, ForceMode.Acceleration);
 
-		//transform.Translate (0, speedUp * Time.deltaTime, forward * Time.deltaTime , Space.Self);
+		transform.Translate (0, speedUp * Time.deltaTime, forward * Time.deltaTime , Space.Self);
+
 	}
 }
