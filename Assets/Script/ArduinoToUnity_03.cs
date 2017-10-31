@@ -9,7 +9,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 
 	private string potVal;
 	private string buttonVal;
-	public float forward = 0;
+	public float forward=0;
 	public float speedUp = 0f;
 	public float lower;
 	public float higher;
@@ -20,8 +20,8 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 	public float z;
 	float heightHAB; 
 
-	//SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
-	SerialPort sp = new SerialPort("COM3", 9600);
+	SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
+//	SerialPort sp = new SerialPort("COM3", 9600);
 
 	// Use this for initialization
 	void Start () {
@@ -58,12 +58,12 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 			forward = 0;
 
 		} else {
-			forward = 80f;
+			forward = 150f;
 
 		}
 
 		if (pumpValue > lower && pumpValue < higher) {
-			speedUp = 80f;
+			speedUp = 60f;
 			//forward = 80f;
 
 		} else if (pumpValue > higher) {
@@ -71,7 +71,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 			//forward = 120;
 
 		} else if (pumpValue < lower && heightHAB > 20) {
-			speedUp = -90.81f;
+			speedUp = -70.81f;
 
 		} else {
 			speedUp = 0f;
