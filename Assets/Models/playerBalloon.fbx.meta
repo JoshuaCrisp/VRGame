@@ -1,49 +1,64 @@
 fileFormatVersion: 2
-guid: 24de8cc4dd239482784a9390da297fa4
-timeCreated: 1508767444
+guid: 19139d2b167244ec783823f50f365401
+timeCreated: 1510002161
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: chair
-    100002: HAB
-    100004: Hemi
-    100006: Oil
-    100008: oulGuage_glass
-    100010: periscope
-    100012: //RootNode
-    100014: propeller
-    100016: pump
+    100002: chair base
+    100004: HAB
+    100006: Hemi
+    100008: Oil
+    100010: oil gauge
+    100012: oulGuage_glass
+    100014: periscope
+    100016: //RootNode
+    100018: propeller
+    100020: pump
+    100022: pump handle
     400000: chair
-    400002: HAB
-    400004: Hemi
-    400006: Oil
-    400008: oulGuage_glass
-    400010: periscope
-    400012: //RootNode
-    400014: propeller
-    400016: pump
+    400002: chair base
+    400004: HAB
+    400006: Hemi
+    400008: Oil
+    400010: oil gauge
+    400012: oulGuage_glass
+    400014: periscope
+    400016: //RootNode
+    400018: propeller
+    400020: pump
+    400022: pump handle
     2300000: chair
-    2300002: HAB
-    2300004: Oil
-    2300006: oulGuage_glass
-    2300008: periscope
-    2300010: propeller
-    2300012: pump
+    2300002: chair base
+    2300004: HAB
+    2300006: Oil
+    2300008: oil gauge
+    2300010: oulGuage_glass
+    2300012: periscope
+    2300014: propeller
+    2300016: pump
+    2300018: pump handle
     3300000: chair
-    3300002: HAB
-    3300004: Oil
-    3300006: oulGuage_glass
-    3300008: periscope
-    3300010: propeller
-    3300012: pump
+    3300002: chair base
+    3300004: HAB
+    3300006: Oil
+    3300008: oil gauge
+    3300010: oulGuage_glass
+    3300012: periscope
+    3300014: propeller
+    3300016: pump
+    3300018: pump handle
     4300000: HAB
-    4300002: Oil
+    4300002: oil gauge
     4300004: pump
-    4300006: oulGuage_glass
-    4300008: propeller
-    4300010: periscope
-    4300012: chair
+    4300006: chair base
+    4300008: Oil
+    4300010: pump handle
+    4300012: oulGuage_glass
+    4300014: propeller
+    4300016: periscope
+    4300018: chair
   materials:
     importMaterials: 1
     materialName: 0

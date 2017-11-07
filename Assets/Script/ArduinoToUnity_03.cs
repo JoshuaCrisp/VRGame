@@ -58,7 +58,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 			forward = 0;
 
 		} else {
-			forward = 150f;
+			forward = 120f;
 
 		}
 
