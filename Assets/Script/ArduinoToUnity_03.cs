@@ -37,6 +37,10 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 	}
 
 
+
+
+
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -58,7 +62,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 
 
 
-		if (heightHAB <= 80 ) {
+		if (heightHAB <= 100 ) {
 				forward = 0;
 
 			} else {
@@ -76,7 +80,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 			//forward = 120;
 
 		} else if (pumpValue < lower && heightHAB > 20) {
-			speedUp = -70.81f;
+			speedUp = -90.81f;
 
 		} else {
 			speedUp = 0f;
