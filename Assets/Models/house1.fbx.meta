@@ -1,71 +1,15 @@
 fileFormatVersion: 2
-guid: d0148e6dc646e224590e841c12bee712
-timeCreated: 1510275460
+guid: 5e09c9ed2f33f431c80a66be0bac83a5
+timeCreated: 1510718705
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Armature
-    100002: head
-    100004: head_end
-    100006: left_foot
-    100008: left_foot_end
-    100010: left_forearm
-    100012: left_forearm_end
-    100014: left_hip
-    100016: left_knee
-    100018: left_shoulder
-    100020: left_thigh
-    100022: left_upper_arm
-    100024: neck
-    100026: right_foot
-    100028: right_foot_end
-    100030: right_forearm
-    100032: right_forearm_end
-    100034: right_hip
-    100036: right_knee
-    100038: right_shoulder
-    100040: right_thigh
-    100042: right_upper_arm
-    100044: Robot.001
-    100046: //RootNode
-    100048: Spine
-    400000: Armature
-    400002: head
-    400004: head_end
-    400006: left_foot
-    400008: left_foot_end
-    400010: left_forearm
-    400012: left_forearm_end
-    400014: left_hip
-    400016: left_knee
-    400018: left_shoulder
-    400020: left_thigh
-    400022: left_upper_arm
-    400024: neck
-    400026: right_foot
-    400028: right_foot_end
-    400030: right_forearm
-    400032: right_forearm_end
-    400034: right_hip
-    400036: right_knee
-    400038: right_shoulder
-    400040: right_thigh
-    400042: right_upper_arm
-    400044: Robot.001
-    400046: //RootNode
-    400048: Spine
-    4300000: Robot.001
-    7400000: Armature|HABAction
-    7400002: Armature|hang-on
-    7400004: Armature|shuffleToDeck
-    7400006: Armature|startingPosition
-    7400008: Armature|tinkering
-    7400010: Armature|tryPump
-    7400012: Armature|workingon motor
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Robot.001
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
   materials:
     importMaterials: 1
     materialName: 0
@@ -99,7 +43,7 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 0
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
@@ -127,10 +71,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class ParticleFinishLine : MonoBehaviour {
 
-	private  ParticleEmitter source;
+	private  ParticleSystem confeti;
 
 	// Use this for initialization
 	void Start () {
 		
-		source = GetComponent<ParticleEmitter> ();
-
+		confeti =GameObject.FindGameObjectWithTag("Confeti").GetComponent<ParticleSystem> ();
+		//
 }
 
-void OnTriggerEnter(Collider other) {
+	public void OnTriggerEnter(Collider other) {
 
-	if (other.gameObject.tag == "Hero") {
-
-	source.enabled = true;
+		if (other.gameObject.tag == "hero" || other.gameObject.tag == "Villan") {
+			
+			confeti.Play() ;
 
 	}
 }

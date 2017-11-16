@@ -21,7 +21,7 @@ public class PlaySound : MonoBehaviour {
 		if (other.gameObject.tag == "hero") {
 
 			source.PlayOneShot (thunder);
-			print ("collided");
+			//print ("collided");
 
 		}
 

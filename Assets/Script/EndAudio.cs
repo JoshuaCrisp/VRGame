@@ -17,7 +17,7 @@ public class EndAudio : MonoBehaviour {
 	}
 
 	public void OnTriggerEnter(Collider other) {
-		if (other.gameObject.tag == "Villian") {
+		if (other.gameObject.tag == "Villan") {
 			counter = 1;
 		}
 

@@ -13,8 +13,8 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 	public float speedUp = 0f;
 	public float lower;
 	public float higher;
-	public float pumpValue;
-	private Rigidbody rb;
+	public double pumpValue;
+	//private Rigidbody rb;
 	public float x;
 	public float y;
 	public float z;
@@ -22,14 +22,14 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 	public float counter;
 	public float _timer;
 
-	//SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
-	SerialPort sp = new SerialPort("COM3", 9600);
+	SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
+	//SerialPort sp = new SerialPort("COM3", 9600);
 
 	// Use this for initialization
 	void Start () {
 		sp.Open ();
-		sp.ReadTimeout = 20;
-		rb = GetComponent<Rigidbody>();
+		sp.ReadTimeout = 2;
+		//rb = GetComponent<Rigidbody>();
 
 
 		//print ("port opened");
@@ -56,7 +56,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 
 		float heightHAB = transform.position.y;
 
-		float pumpValue = float.Parse (potVal);
+		double pumpValue = double.Parse(potVal);
 		sp.BaseStream.Flush();
 		print (pumpValue);
 
@@ -88,7 +88,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 		}
 
 		counter += Time.deltaTime;
-		if (counter <= 8) {
+		if (counter <= 11) {
 
 			_timer = 0;
 		} else {
