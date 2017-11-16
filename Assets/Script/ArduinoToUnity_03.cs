@@ -28,7 +28,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		sp.Open ();
-		sp.ReadTimeout = 2;
+		sp.ReadTimeout = 10;
 		//rb = GetComponent<Rigidbody>();
 
 
