@@ -22,11 +22,13 @@ public class EndAudio : MonoBehaviour {
 		}
 
 		if (other.gameObject.tag == "hero" && counter == 1) {
+			
 			source1.PlayOneShot (lose);
+
 			print ("you lose");
 		} else if(other.gameObject.tag == "hero" && counter == 0) {
 			source2.PlayOneShot (win);
-
+		
 
 		}
 

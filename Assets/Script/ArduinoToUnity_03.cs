@@ -87,20 +87,20 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 
 		}
 
-		counter += Time.deltaTime;
-		if (counter <= 11) {
-
-			_timer = 0;
-		} else {
-		
-			_timer = 1;
-		}
+//		counter += Time.deltaTime;
+//		if (counter <= 11) {
+//
+//			_timer = 0;
+//		} else {
+//		
+//			_timer = 1;
+//		}
 
 		//Vector3 movement = new Vector3 (0, speedUp* Time.deltaTime, forward*Time.deltaTime);
 
 		//rb.AddForce (movement, ForceMode.Acceleration);
 
-		transform.Translate (0, speedUp * Time.deltaTime, _timer * forward * Time.deltaTime , Space.Self);
-
+		transform.Translate (0, speedUp * Time.deltaTime,forward * Time.deltaTime , Space.Self);
+		// _timer * 
 	}
 }
