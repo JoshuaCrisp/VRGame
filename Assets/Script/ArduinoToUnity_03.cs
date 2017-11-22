@@ -14,22 +14,27 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 	public float lower;
 	public float higher;
 	public double pumpValue;
-	//private Rigidbody rb;
+	public double R_PedalValue;
+	private Rigidbody rb;
 	public float x;
 	public float y;
 	public float z;
 	float heightHAB; 
 	public float counter;
 	public float _timer;
+	public float r;
 
-	SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
-	//SerialPort sp = new SerialPort("COM3", 9600);
+	public float minAngle;
+	public float maxAngleR ;
+
+	//SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
+	SerialPort sp = new SerialPort("COM4", 9600);
 
 	// Use this for initialization
 	void Start () {
 		sp.Open ();
 		sp.ReadTimeout = 10;
-		//rb = GetComponent<Rigidbody>();
+		rb = GetComponent<Rigidbody>();
 
 
 		//print ("port opened");
@@ -57,8 +62,10 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 		float heightHAB = transform.position.y;
 
 		double pumpValue = double.Parse(potVal);
+		R_PedalValue = double.Parse (potVal.Substring (3)); //Test for adding pedals
 		sp.BaseStream.Flush();
-		print (pumpValue);
+		//print (pumpValue);
+		print (R_PedalValue);
 
 
 
@@ -80,27 +87,63 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 			//forward = 120;
 
 		} else if (pumpValue < lower && heightHAB > 20) {
-			speedUp = -90.81f;
+			speedUp = -80.81f;
 
 		} else {
 			speedUp = 0f;
 
 		}
 
-//		counter += Time.deltaTime;
-//		if (counter <= 11) {
+		counter += Time.deltaTime;
+		if (counter <= 11) {
+
+			_timer = 0;
+		} else {
+
+			_timer = 1;
+		}
+
+
+		//Testing R L movement on Key
+//		if (Input.GetKey (KeyCode.RightArrow)) {
+//			r = 5;
 //
-//			_timer = 0;
-//		} else {
-//		
-//			_timer = 1;
+//		} else if(Input.GetKey (KeyCode.LeftArrow)) {
+//			r = -5;
+//		} else{
+//		r = 0;
+//	}
+//			
+//
+//		if (Input.GetKeyDown (KeyCode.RightArrow)) {
+//			float angle = Mathf.LerpAngle (0f, 30f, 1);
+//			transform.eulerAngles = new Vector3 (0,0,angle);
+//
 //		}
+//		if (Input.GetKeyUp (KeyCode.RightArrow)) {
+//			float angle = Mathf.LerpAngle (-15, 0, Time.time);
+//			transform.eulerAngles = new Vector3 (0,0,angle);
+//
+//		}
+	
 
-		//Vector3 movement = new Vector3 (0, speedUp* Time.deltaTime, forward*Time.deltaTime);
+		// Move HAB
+		transform.Translate (r, speedUp * Time.deltaTime, _timer * forward * Time.deltaTime , Space.Self);
 
-		//rb.AddForce (movement, ForceMode.Acceleration);
+		//Move HAB with Adding force - not working properly
+		//Vector3 movement = new Vector3 (0, speedUp* Time.deltaTime, _timer * forward*Time.deltaTime);
 
-		transform.Translate (0, speedUp * Time.deltaTime,forward * Time.deltaTime , Space.Self);
+
+	//	rb.AddForce (movement, ForceMode.VelocityChange);
+		//rb.AddForce (movement * 120);
+	
 		// _timer * 
+
+
+	
+
+
+
 	}
+
 }

@@ -19,16 +19,17 @@ public class EndAudio : MonoBehaviour {
 	public void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag == "Villan") {
 			counter = 1;
+			Destroy (GetComponent<BoxCollider>());
 		}
 
 		if (other.gameObject.tag == "hero" && counter == 1) {
 			
 			source1.PlayOneShot (lose);
-
+			Destroy (GetComponent<BoxCollider>());
 			print ("you lose");
 		} else if(other.gameObject.tag == "hero" && counter == 0) {
 			source2.PlayOneShot (win);
-		
+			Destroy (GetComponent<BoxCollider>());
 
 		}
 
