@@ -31,10 +31,13 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 	private int hab;
 	private string pedal_R;
 	private string pedal_L;
+	private float angleTimer;
+	private float max_angleTimer = 2.0f;
+	private float stillTimer = 0.0f;
 
 //Select serial port
-	SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
-	//SerialPort sp = new SerialPort("COM4", 9600);
+	//SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
+	SerialPort sp = new SerialPort("COM3", 9600);
 
 // Use this for initialization
 	void Start () {
@@ -75,8 +78,8 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 		//int R_PedalValue = int.Parse (pedal_R);
 		//int L_PedalValue = int.Parse (pedal_L);
 
-		print (R_PedalValue);
-		print (L_PedalValue);
+	//	print (R_PedalValue);
+		//print (L_PedalValue);
 
 //		string myString_R = potVal.Substring (3,1);
 //		double R_PedalValue = double.Parse (potVal.Substring (3,1)); //Test for adding pedals
@@ -119,18 +122,34 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 
 //Move HAB sideways
 
+		// 
+
 		//Using string
 		if (pedal_R == "1" && pedal_L == "1") {
 			r = 0;
-
+			angleTimer = 0;
+			stillTimer += Time.deltaTime;
+			float angle = Mathf.LerpAngle (transform.eulerAngles.z, 0, Mathf.Clamp(stillTimer/max_angleTimer, 0.0f, 1.0f));
+			transform.eulerAngles = new Vector3 (0, 90, angle);
+			//float angle = Mathf.LerpAngle (0f, 0f, Time.deltaTime);
+			//transform.eulerAngles = new Vector3 (0, 90,angle);
 		}else if(pedal_R == "1" && pedal_L == "0"){
-				r = -7;
+				r = -3;
+			stillTimer = 0;
+			angleTimer += Time.deltaTime;
+			print (angleTimer/max_angleTimer);
+			float angle = Mathf.LerpAngle (0f, 30f, Mathf.Clamp(angleTimer/max_angleTimer, 0.0f, 1.0f));
+			transform.eulerAngles = new Vector3 (0, 90, angle);
 
 		}else if (pedal_R == "0" && pedal_L == "1") {
-			r = 7;
-
+			r = 3;
+			stillTimer = 0;
+			angleTimer += Time.deltaTime;
+			float angle = Mathf.LerpAngle (0f, -30f, angleTimer/max_angleTimer);
+			transform.eulerAngles = new Vector3 (0, 90, angle);
 		}else{
 			r = 0;
+
 
 		}
 
@@ -146,7 +165,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 //
 //		if (L_PedalValue != 1) {
 //			r = -7;
-//
+
 //		}else{
 //			r = 0;
 //		}
