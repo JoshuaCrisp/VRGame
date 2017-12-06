@@ -138,14 +138,14 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 			stillTimer = 0;
 			angleTimer += Time.deltaTime;
 			print (angleTimer/max_angleTimer);
-			float angle = Mathf.LerpAngle (0f, 30f, Mathf.Clamp(angleTimer/max_angleTimer, 0.0f, 1.0f));
+			float angle = Mathf.LerpAngle (0f, 20f, Mathf.Clamp(angleTimer/max_angleTimer, 0.0f, 1.0f));
 			transform.eulerAngles = new Vector3 (0, 90, angle);
 
 		}else if (pedal_R == "0" && pedal_L == "1") {
 			r = 3;
 			stillTimer = 0;
 			angleTimer += Time.deltaTime;
-			float angle = Mathf.LerpAngle (0f, -30f, angleTimer/max_angleTimer);
+			float angle = Mathf.LerpAngle (0f, -20f, angleTimer/max_angleTimer);
 			transform.eulerAngles = new Vector3 (0, 90, angle);
 		}else{
 			r = 0;
