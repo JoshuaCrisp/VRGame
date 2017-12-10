@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class rotatePropeler : MonoBehaviour {
 
-	public float n = 1;
+	public float x = 0;
+	public float y = 0;
+	public float z = 0;
 	float countdown;
 
 	// Use this for initialization
@@ -17,7 +19,7 @@ public class rotatePropeler : MonoBehaviour {
 
 		//countdown -= Time.deltaTime;
 
-		transform.Rotate (0, Time.deltaTime * n, 0);
+		transform.Rotate (Time.deltaTime * x, Time.deltaTime * y, Time.deltaTime * z);
 
 	}
 }

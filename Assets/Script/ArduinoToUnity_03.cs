@@ -36,8 +36,8 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 	private float stillTimer = 0.0f;
 
 //Select serial port
-	//SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
-	SerialPort sp = new SerialPort("COM3", 9600);
+	SerialPort sp = new SerialPort("/dev/cu.usbmodem1411", 9600);
+	//SerialPort sp = new SerialPort("COM3", 9600);
 
 // Use this for initialization
 	void Start () {
@@ -87,7 +87,7 @@ public class ArduinoToUnity_03 : MonoBehaviour {
 
 //Flush port reading			
 		sp.BaseStream.Flush();
-		//print (pumpValue);
+		print (pumpValue);
 		//print (myString);
 		//print(potVal);
 		//print (hab);
